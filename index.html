@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#services" style="--i:3">Skill</a>
+            <a href="#skills" style="--i:4">Portfolio</a>
+            <a href="#contact" style="--i:5">Contact us</a>
+            <a href="Abhishek_resume.pdf" download class="btn">Download Resume</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <br><br><br><br>
+            <h2>Hello, It's Me</h2>
+            <h1><b></b>Abhishek Bhargav</b></h1>
+            <h2>I'am <span id="typing" class="text"></span></h2>
+            <p>A Full Stack Developer and 3rd Year CSE Student passionate
+                about building AI-powered web applications.<br>
+                Transforming ideas into scalable products through code, creativity, and innovation.</p>
+            <div class="home-sci">
+                <a href="mailto:abhishekbhargava499@gmail.com" style="--i:6">
+                    <i class='bx bxs-envelope'></i>
+                </a>
+
+                <a href="https://wa.me/7000298634" style="--i:7">
+                    <i class='bx bxl-whatsapp'></i>
+                </a>
+
+                <a href="https://instagram.com/yourusername" style="--i:8">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/abhishekbhargav7" target="_blank" style="--i:9">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+            </div>
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+        <div class="home-img">
+            <img src="Abhishek.jpg" alt="Abhishek">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="cartoon.png" alt="Image">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Full Stack Developer</h4>
+            <p>Hello! I'm Abhishek Bhargav, a 3rd-year B.Tech Computer Science student with
+                a strong passion for technology and software development. I enjoy solving
+                challenging problems and regularly practice Data Structures and Algorithms
+                to strengthen my problem-solving skills. Alongside DSA, I am actively
+                learning Full Stack Web Development and building modern, responsive web
+                applications. I have a keen interest in Artificial Intelligence and
+                continuously explore new AI tools, technologies, and industry trends.
+                I believe in continuous learning and constantly work on improving my
+                technical and professional skills. My goal is to create impactful
+                digital solutions that solve real-world problems. I am always excited
+                to take on new challenges, learn emerging technologies, and grow as a
+                software engineer.</p>
+            <a href="#" class="btn-box">More About Me</a>
+
+        </div>
+    </section>
+    <section>
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title">My <span>Services</span></h1>
+                <div class="services-list">
+                    <div>
+                        <i class='bx bx-code' style='color:#62f3f1'></i>
+                        <h2>Frontend Development</h2>
+                        <p>Building responsive, interactive, and user-friendly web applications using modern
+                            technologies like HTML, CSS, JavaScript, React, and Tailwind CSS.</p>
+                        <a href="#" class="read">learn more</a>
+                    </div>
+                    <div>
+                        <i class='bx bx-edit-alt' style='color:#00eeff'></i>
+                        <h2>Backend Development</h2>
+                        <p>Developing secure and scalable server-side applications, APIs,
+                            and database solutions. Focused on security,and building reliable
+                            backend systems for modern web applications.</p>
+                        <a href="#" class="read">learn more</a>
+                    </div>
+                    <div>
+                        <i class='bx bx-desktop' style='color:#00eeff'></i>
+                        <h2>Data Structures & Algorithms</h2>
+                        <p>Strong problem-solving skills with a solid understanding of data structures,
+                            algorithms, and competitive programming concepts.</p>
+                        <a href="#" class="read">learn more</a>
+                    </div>
+                    <div>
+                        <i class='bx bx-code' style='color:#62f3f1'></i>
+                        <h2>Core Computer Science</h2>
+                        <p>Well-versed in fundamental CS subjects including DBMS, Operating Systems,
+                            Computer Networks, and Object-Oriented Programming.</p>
+                        <a href="#" class="read">learn more</a>
+                    </div>
+                    <div>
+                        <i class='bx bxs-dashboard' style='color:#00eeff'></i>
+                        <h2>Artificial Intelligence & Machine Learning</h2>
+                        <p>Exploring AI/ML concepts, model development, and data-driven solutions
+                            to build intelligent and innovative applications.</p>
+                        <a href="#" class="read">learn more</a>
+                    </div>
+                    <div>
+                        <i class='bx bx-cloud' style='color:#00eeff'></i>
+                        <h2>Cloud & DevOps</h2>
+                        <p>Learning cloud technologies, containerization, and CI/CD practices
+                            to build, deploy, and manage scalable applications efficiently.</p>
+                        <br>
+                        <a href="#" class="read">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h1 class="sub-title">My <span>Skills</span></h1>
+
+    <section>
+        <div class="skills-container">
+            <div class="container1" id="skills">
+                <h1 class="heading1">Technical Skills</h1>
+                <div class="Technical-bars">
+                    <div class="bar"><i class='bx bxl-c-plus-plus' style='color:#06f3ef'></i>
+                        <div class="info">
+                            <span>
+                                <h2>C++</h2>
+
+                            </span>
+                        </div>
+                        <div class="progress-line cpp">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar"><i class='bx bxs-data' style='color:#06f3ef'></i>
+                        <div class="info">
+                            <span>
+                                <h2>Data Structures and Algorithms</h2>
+                            </span>
+                        </div>
+                        <div class="progress-line dsa">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar"><i class='bx bxl-python' style='color:#06f3ef'></i>
+                        <div class="info">
+                            <span>
+                                <h2>Python</h2>
+                            </span>
+                        </div>
+                        <div class="progress-line python">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar"><i class='bx bxl-html5' style='color:#06f3ef'></i>
+                        <div class="info">
+                            <span>
+                                <h2>HTML</h2>
+                            </span>
+                        </div>
+                        <div class="progress-line html">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar"><i class='bx bxl-css3' style='color:#06f3ef'></i>
+                        <div class="info">
+                            <span>
+                                <h2>CSS</h2>
+
+                            </span>
+                        </div>
+                        <div class="progress-line css">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar"><i class='bx bxl-javascript' style='color:#06f3ef'></i>
+                        <div class="info">
+                            <span>
+                                <h2>Javascript</h2>
+                            </span>
+                        </div>
+                        <div class="progress-line javascript">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar"><i class='bx bxl-react bx-rotate-90' style='color:#06f3ef'></i>
+                        <div class="info">
+                            <span>
+                                <h2>React</h2>
+                            </span>
+                        </div>
+                        <div class="progress-line react">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar"><i class='bx bxl-nodejs bx-rotate-90' style='color:#06f3ef'></i>
+                        <div class="info">
+                            <span>
+                                <h2>Node.js</h2>
+                            </span>
+                        </div>
+                        <div class="progress-line nodejs">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar"><i class='bx bx-expand-horizontal bx-rotate-90' style='color:#06f3ef'></i>
+                        <div class="info">
+                            <span>
+                                <h2>Express.js</h2>
+                            </span>
+                        </div>
+                        <div class="progress-line expressjs">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar"><i class='bx bxl-mongodb bx-rotate-90' style='color:#06f3ef'></i>
+                        <div class="info">
+                            <span>
+                                <h2>MongoDB</h2>
+                            </span>
+                        </div>
+                        <div class="progress-line mongodb">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar"><i class='bx bxl-github' style='color:#06f3ef'></i>
+                        <div class="info">
+                            <span>
+                                <h2>Git & GitHub</h2>
+                            </span>
+                        </div>
+                        <div class="progress-line git">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container1 professional-box">
+                <h1 class="heading1">Professional Skills</h1>
+
+                <div class="radial-bars">
+
+                    <div class="radial-bar">
+                        <svg viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">95%</div>
+                        <div class="text">Creativity</div>
+                    </div>
+
+                    <div class="radial-bar">
+                        <svg viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">80%</div>
+                        <div class="text">Communication</div>
+                    </div>
+
+                    <div class="radial-bar">
+                        <svg viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">85%</div>
+                        <div class="text">Problem Solving</div>
+                    </div>
+
+                    <div class="radial-bar">
+                        <svg viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">90%</div>
+                        <div class="text">Teamwork</div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="portfolio" id="project">
+            <div class="main-text" id="project">
+                <h2>Latest<span>Project</span></h2>
+
+                <div class="portfolio-content">
+                    <div class="row">
+                        <img src="chatbot.png">
+                        <div class="layer">
+                            <h5>AI Chatbot</h5>
+                            <p>An AI-powered conversational assistant built using modern NLP technologies, 
+                                capable of answering queries, assisting users, and providing intelligent 
+                                real-time interactions.</p>
+
+                            <a href="#" class="bx bx-link-external" style="color: aliceblue;"></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="ecommerce.webp">
+                        <div class="layer">
+                            <h5>E-Commerce Website</h5>
+                            <p>A full-stack e-commerce platform featuring product management, secure 
+                                authentication, shopping cart functionality, payment integration, 
+                                and order tracking</p>
+
+                            <a href="#" class="bx bx-link-external" style="color: aliceblue;"></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="weather.png">
+                        <div class="layer">
+                            <h5>Weather Forecasting Website</h5>
+                            <p>A responsive weather forecasting application that provides real-time 
+                                weather conditions, temperature forecasts, humidity levels, and 
+                                location-based weather insights using external APIs.</p>
+
+                            <a href="#" class="bx bx-link-external" style="color: aliceblue;"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+    <div class="contact-text">
+        <h2>Contact <span>Me</span></h2>
+        <h4>Let's work Together</h4>
+        <p>Ready to transform ideas into powerful digital experiences.
+            Passionate about Full Stack Development, AI, and innovative
+            problem-solving.Let's connect and build something amazing together.</p>
+        <div class="contact-list">
+            <li><i class='bx bxs-send'></i>abhishekbhargava499@gmail.com</li>
+            <li><i class='bx bxs-phone'></i>7000298634</li>
+        </div>
+        <div class="contact-icons">
+            <a href="https://instagram.com/yourusername" target="_blank">
+    <i class='bx bxl-instagram'></i>
+</a>
+
+<a href="https://linkedin.com/in/abhishekbhargav7" target="_blank">
+    <i class='bx bxl-linkedin'></i>
+</a>
+
+<a href="https://github.com/yourusername" target="_blank">
+    <i class='bx bxl-github'></i>
+</a>
+        </div>
+    </div>
+
+
+
+    <div class="contact-form">
+        <form action="">
+            <input type="" placeholder="Enter Your Name" required>
+            <input type="email" placeholder="Enter Your Email" required>
+
+            <input type="" placeholder="Enter Your Subject">
+            <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your message!" required></textarea>
+            <input type="submit" value="submit" class="send">
+        </form>
+    </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
